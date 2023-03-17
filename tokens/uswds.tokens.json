@@ -1,6 +1,6 @@
 {
-  "global": {
-    "colors": {
+  "core": {
+    "color": {
       "ink": {
         "value": "#1b1b1b",
         "type": "color"
@@ -9,8 +9,22 @@
         "value": "#fff",
         "type": "color"
       },
-      "blue": {
+      "blue-500": {
         "value": "#2055c1",
+        "type": "color"
+      }
+    },
+    "radius": {
+      "small": {
+        "value": "8",
+        "type": "borderRadius"
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "link": {
+        "value": "{core.color.blue-500}",
         "type": "color"
       }
     }
@@ -18,7 +32,8 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "core",
+      "semantic"
     ]
   }
 }
