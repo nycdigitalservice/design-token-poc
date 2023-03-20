@@ -23,12 +23,8 @@
   },
   "semantic": {
     "color": {
-      "link": {
-        "value": "{color.blue-500}",
-        "type": "color"
-      },
       "primary": {
-        "value": "{color.blue-500}",
+        "value": "{core.color.blue-500}",
         "type": "color"
       }
     }
@@ -36,7 +32,7 @@
   "component": {
     "color": {
       "primary-button-bg": {
-        "value": "{color.primary}",
+        "value": "{semantic.color.primary}",
         "type": "color"
       }
     }
