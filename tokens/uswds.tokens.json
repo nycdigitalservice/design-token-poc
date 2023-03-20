@@ -19,6 +19,28 @@
         "value": "8",
         "type": "borderRadius"
       }
+    },
+    "spacing": {
+      "0": {
+        "value": "0",
+        "type": "spacing"
+      },
+      "1": {
+        "value": ".25",
+        "type": "spacing"
+      },
+      "2": {
+        "value": "{spacing.1} * 2",
+        "type": "spacing"
+      },
+      "0_5": {
+        "value": "{spacing.1} * 0.5",
+        "type": "spacing"
+      },
+      "1_5": {
+        "value": "{spacing.1} * 1.5",
+        "type": "spacing"
+      }
     }
   },
   "semantic": {
