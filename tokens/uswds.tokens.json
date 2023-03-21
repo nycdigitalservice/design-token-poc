@@ -74,16 +74,20 @@
     }
   },
   "component": {
-    "color": {
-      "primary-button-bg": {
-        "value": "{color.primary}",
-        "type": "color"
-      }
-    },
     "spacing": {
-      "primary-button": {
+      "button": {
         "value": "{spacing.md} {spacing.lg}",
         "type": "spacing"
+      }
+    },
+    "color": {
+      "button": {
+        "primary": {
+          "bg": {
+            "value": "{color.primary}",
+            "type": "color"
+          }
+        }
       }
     }
   },
